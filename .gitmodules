@@ -1,0 +1,8 @@
+[submodule "queuey"]
+	path = queuey
+	url = git@github.com:AwesomeIbex/queuey.git
+	branch = main
+[submodule "worky"]
+	path = worky
+	url = git@github.com:AwesomeIbex/worky.git
+	branch = main
