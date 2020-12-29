@@ -8,7 +8,9 @@ ARG BASE_IMAGE=ekidd/rust-musl-builder:latest
 
 FROM ${BASE_IMAGE} AS builder-queuey
 
+RUN ls
 ADD --chown=rust:rust . ./
+RUN ls
 
 RUN cd queuey && cargo build --release
 
